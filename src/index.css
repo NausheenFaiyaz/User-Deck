@@ -1,0 +1,31 @@
+﻿:root {
+  font-family: 'Trebuchet MS', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #2e1322;
+  background-color: #ffd8ea;
+  line-height: 1.5;
+  font-weight: 400;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background:
+    repeating-linear-gradient(
+      -35deg,
+      #ffd7e8,
+      #ffd7e8 16px,
+      #ffcfe3 16px,
+      #ffcfe3 32px
+    );
+}
+
+#root {
+  min-height: 100vh;
+}
